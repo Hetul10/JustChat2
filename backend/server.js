@@ -1,5 +1,5 @@
 const express=require('express');
-const {chats}=require(`./data/data.js`);
+
 const dotenv=require('dotenv');
 const connectDB=require('./config/db.js');
 const userRoutes=require('./routes/userRoutes');
