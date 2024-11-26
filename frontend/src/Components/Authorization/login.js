@@ -43,7 +43,7 @@ const Login=()=>{
 
             localStorage.setItem('userInfo',JSON.stringify(data));
             setLoading(false);
-            history.push("/chats");
+            window.location.assign("/chats"); // Force full reload to chats page
         }
         catch(err){
             toast({
